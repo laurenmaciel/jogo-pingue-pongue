@@ -1,0 +1,44 @@
+body {
+    background: #FFFAF0;
+    font-family: 'Bitcount Single', sans-serif;
+    color: #C71585;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titulo-game{
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    color:#4B0082;
+    font-family: 'Bitcount Single', sans-serif;
+    margin-bottom: 10px;
+}
+
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pongCanvas {
+    background: #111;
+    border: 2px solid #4B0082;
+    box-shadow: 0 0 24px #9932CC;
+    display: block;
+}
+
+#scoreboard {
+    margin-top: 16px;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+}
